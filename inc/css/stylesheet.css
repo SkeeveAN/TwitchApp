@@ -1,0 +1,117 @@
+body {
+	background-color:#262626;
+	color:#f1f1f1;
+}
+
+input {
+	width: 30em;
+	color:#f1f1f1;
+	padding:5px;
+	background-color:#555555;
+	border-radius: 5px;
+	border:1px #999999 solid;
+	font-size:1.0em;
+}
+
+input[type=text] {
+	width:29.3em !important;
+}
+
+
+img#profil_img {
+	width:100px;
+}
+
+p#follow img {
+	height:30px;
+	vertical-align:middle;
+}
+
+.flag-icon{
+	border-radius: 4px;
+}
+
+.login_button {
+	color:#EEE;
+}
+
+.live {
+	font-weight:bold;
+	color:#FF0000;
+}
+
+.ui-menu {
+	color:#f1f1f1 !important;
+	background-color:#262626 !important;
+}
+
+.ui-menu img{
+	width:40px;
+	line-height:40px !important;
+	vertical-align:middle !important;
+}
+.ui-menu li span{
+	font-size:1em;
+	padding:0 0 5px 5px;
+	margin:0 0 5px 0 !important;
+	white-space:nowrap;
+}
+
+
+
+.login_button {
+	margin: 1em 0em;
+	padding: 1em;
+	
+	display:block;
+	
+	background-color:#6441a5;
+	text-align:center;
+}
+
+input[type=submit] {
+	background-color: #6441a5;
+	margin:1em 0em;
+	padding:1em;
+}
+
+#broadcaster-info {
+	float: left;
+	width: 20em;
+	margin-bottom: 0px;
+	vertical-align: middle;
+}
+
+
+
+#broadcaster-name, #broadcaster-status, #follow {
+	margin: 0em;
+	padding: 0.5em 0em;
+	height: 30px;
+	font-weight:bold;
+	line-height:1.5em;
+}
+
+#broadcaster-name {
+	width: 10em;
+	float: left;
+}
+
+#broadcaster-status {
+	width: 3em;
+	float: left;
+}
+
+#follow {
+	width: 6em;
+	float: right;
+}
+
+p#broadcaster-title, p#broadcaster-game {
+	font-size:1.1em;
+}
+
+p .title {
+	font-size:1.2em;
+	font-weight:bold;
+}

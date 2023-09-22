@@ -1,0 +1,27 @@
+
+<form action="#send" method="post">
+	<!-- verstecke Felder -->
+	<input type="hidden" name="broadcaster_id" value="{broadcaster_id}" />
+	<input type="hidden" id="game_id" name="game_id" value="{game_id}" />
+	<!-- sichtbare Felder -->
+	
+	<div id="broadcaster-info">
+		<span class="flag-icon flag-icon-{broadcaster_language}"></span> <span id="broadcaster_name">{display_name}</span><br />
+		<span style="display:{live_display};" class="live">LIVE</span> 
+		<span style="display:{notlive_display};">offline</span>
+		<br />
+		<p id="follow"><img src="inc/img/follow.png" alt="Follow" /> {follower_total}</p>
+	</div>
+	
+	<div id="broadcaster-img">
+		<img src="{profile_image_url}" alt="Profil-Bild" id="profil_img" />
+	</div>
+	
+	<div id="stream-info">
+		<span class="title">Title (140):</span><br />
+		<input type="text" value="{title}" /><br />
+		<span class="title">Spiel / Kategorie:</span><br />
+		<input type="text" id="game_name" name="game_name" value="{game_name}" />
+	</div>
+	<input type="submit" value="Speichern" /><br />
+</form>
